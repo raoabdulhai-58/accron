@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid header-container" id="home">
+      <div class="container-fluid">
+      <nav class=" navbar fixed-top  navbar-expand-sm">
+        <a class="navbar-brand" href="#">ACCRON</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+          </ul>
+          <span class="navbar-text">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" onclick="changecolor()" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="changecolor()" href="#about-heading">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="changecolor()" href="#service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " onclick="changecolor()" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </span>
+        </div>
+      </nav>
+    </div>
+         <div id="headder-cont">
+        <img src="images/accron_logo1.png" alt="logo" id="img-logo">
+
+        <h3 id="headder_text">Provide Complete Solution of Industrial Automation
+          <br> And Embedded  Design System
+        </h3>
+      </div>
+    </div>
+    
+    <div class="container about-container">
+        <h1 id="about-heading"> About us </h2>
+
+          <div class="row" id="about-box">
+            <div class="col-12">
+          <p id="about-content">Accron Engineering
+            has a demonstrated history as an
+            Automation and Embedded design system 
+             firm work solely for the spreading of innovation 
+              and technology.
+              ACCRON Engineering has been providing innovative and technological, cost effective and customized solutions in the domain of industrial automation to the industries for over three years. Industrial Automation with PLC, HMI, SCADA, Robotics and embedded systems. 
+          </p>
+        </div>
+           
+         <div class="col-12 about-goals">
+              <h3 id="goals-heading">Our Goals</h3>
+              <ul>
+                <li>Expand Our team</li>
+                <li>Improve Employee Saticfaction </li>
+                <li>Increase Client Base</li>
+                <li>Maintain Client Satisfaction</li>
+                <li>Increase Company Visibilty</li>
+              </ul>
+         </div>
+         <div class="col-12 about-goals">
+              <h3 id="goals-heading">Our Clients</h3>
+              <ul>
+                <li>Marhaba Textiles LTD.</li>
+                <li>Salahuddin Industries </li>
+                <li>Mediplas Innovations (Pvt.) Ltd</li>
+                <li>GulAhmed Textiles Mills</li>
+              </ul>
+         </div>
+
+         </div>
+    </div>
+
+    <div class="container-fluid services" id="service">
+      <div class="container">
+      <h1 id="about-heading"> Services </h2>
+        <div class="row">
+            <div class="col-12">
+               <h2>What We're Doing :</h2>
+               <p>The firm provides multiple services to industries like:</p>
+                 <ul>
+                   <li>Industrial Automation including PLCs, HMIs, SCADA, Robotics and
+                    embedded systems.</li>
+                   <li>Power monitoring devices for AC and DC power monitoring.</li>
+                   <li>PCB designing.</li>
+                   <li>Firealarm panels designing along with maintainance and
+                    installation.</li>
+                   <li>Industrial security systems</li>
+                   <li>Power factor improvement devices.</li>
+                   <li>Data monitoring devices along with web portal and user interface.</li>
+                   <li>Solar systems installtion power monitoring through IOT.</li>
+                   <li>ATS (Auto Transfer switch) devices.</li>
+                   <li>Electrical panels designing fitting and Manufactruing.</li>
+                   <li>Provide solutions of new machines .</li>
+                   <li>PLC and Embedded design systems programming, Hmi designing
+                    and Electrical panels Installation and fittings</li>
+                 </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid contact" id="contact">
+      <div class="container">
+        <h1 id="about-heading"> Contact </h2>
+        <div class="row">
+            <div class="col-12 col-md-8 info" >
+              <p><i class="fa fa-map-marker "></i> Karachi,Pakistan </p>
+              <p><i class="fa fa-phone "></i> Phone: +92 317 3169091 - +92 302 3021237</p>
+              <p><i class="fa fa-envelope"> </i> Email: <a href="mailto:accron.engineering@gmail.com" target="_blank">accron.engineering@gmail.com</a> </p>
+            </div>
+            <div class="col-12 col-md-4 inp ">
+                <p>
+                <input type="text" id="name" name="name" placeholder="Enter your Name" required><br>
+              </p>
+                <p>
+                <input type="email" id="email" placeholder="Enter your Email" required > <br>
+              </p>
+              <p>
+                <textarea name="msg" id="" cols="40" rows="5" placeholder="Enter Your Message" required></textarea>
+              </p>
+               <p>
+                 <button id="submit-btn">Submit</button>
+               </p>
+            </div>
+             <div class="col-12 rights " style="text-align: center;">
+                <p style="color: lightgray;">&copy;Copyright <span id="date"></span>,<span style="color: blue ;"> Accron Engineering </span>| All Rights Reserved</p>
+             </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+ <script src="js/app.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
