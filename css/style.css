@@ -1,7 +1,6 @@
 *{
   padding: 0 ;
   margin: 0 ;
-  /* box-sizing: border-box !important; */
 }
 .header-container{
    background-image: url('../images/image-1.jpeg');
@@ -10,24 +9,19 @@
    background-size: 100% 100%;
    background-repeat: no-repeat;
    background-position: center;
-   /* position: relative; */
-  
 }
 .navbar{
  background-color: black;
- /* opacity: 0.5; */
  padding-left: 100px !important;
   padding-right: 40px !important;
 }
 .nav-link{
-  /* position: absolute; */
   text-decoration: none !important;
   color: #fff !important;
   border: 1px solid #fff;
   margin: 0 5px;
   font-size: 18px !important;
   transition: .5s all;
-  /* z-index: 1 !important; */
 }
 .nav-link:hover{
   background-color: #fff !important;
@@ -43,11 +37,15 @@
   background-color: #fff !important;
   border: none !important;
   color: black !important;
-  /* color: #1A324C !important; */
+
 }
 .navbar-toggler{
    background-color: #fff !important;
-   color: white;
+   outline: none;
+}
+.toggle-icon{
+   font-size: 130%;
+   padding-top: 2px;
 }
 
 #img-logo{
@@ -91,7 +89,7 @@
    font-weight: bold;
 }
 .services{
-    background: url('../images/service-img.jpeg');
+    background: url('/images/image-6.jpeg');
     width: 100%;
    background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -105,6 +103,7 @@
 .services li{
   padding: 5px;
   font-weight: bold;
+  color: #fff !important;
 }
 .contact{
   background-color: black;
@@ -138,6 +137,7 @@
    background-color: transparent;
    border-radius: 100px;
    transition: .5s;
+   outline: none;
 }
 #submit-btn:hover{
    cursor: pointer;
@@ -171,7 +171,9 @@
     padding-bottom: 50px !important;
 }
 .nav-link{
-  /* padding-left: 10px !important; */
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  text-align: center !important;
   border: none;
 }
 .services{

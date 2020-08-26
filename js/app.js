@@ -17,3 +17,25 @@
     }
  }
 }
+
+
+ 
+
+//  function abc() {
+//   var name = document.getElementById('name').value;
+//   var email = document.getElementById('email').value
+//   var msg = document.getElementById('msg').value
+
+//   if (name != 0 && email != 0 && msg != 0 ) {
+//     console.log(name);
+//    console.log(email);
+//    console.log(msg);
+//   }
+//   name.value = "";
+//   email.value = "";
+//   msg.value = "";
+  
+   
+//  }
+
+

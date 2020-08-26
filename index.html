@@ -6,7 +6,6 @@
   <link rel="stylesheet" href="css/style.css">
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <title>Document</title>
@@ -17,7 +16,7 @@
       <nav class=" navbar fixed-top  navbar-expand-sm">
         <a class="navbar-brand" href="#">ACCRON</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"> <i class="fas fa-bars toggle-icon"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mr-auto">
@@ -31,10 +30,10 @@
                 <a class="nav-link" onclick="changecolor()" href="#about-heading">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" onclick="changecolor()" href="#service">Services</a>
+                <a class="nav-link"onclick="changecolor()" href="#service">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " onclick="changecolor()" href="#contact">Contact</a>
+                <a class="nav-link "onclick="changecolor()" href="#contact">Contact</a>
               </li>
             </ul>
           </span>
@@ -82,8 +81,7 @@
                 <li>Mediplas Innovations (Pvt.) Ltd</li>
                 <li>GulAhmed Textiles Mills</li>
               </ul>
-         </div>
-
+            </div>
          </div>
     </div>
 
@@ -125,18 +123,20 @@
               <p><i class="fa fa-envelope"> </i> Email: <a href="mailto:accron.engineering@gmail.com" target="_blank">accron.engineering@gmail.com</a> </p>
             </div>
             <div class="col-12 col-md-4 inp ">
+                <form>
                 <p>
-                <input type="text" id="name" name="name" placeholder="Enter your Name" required><br>
+                <input type="text" id="name" placeholder="Enter your Name" required ><br>
               </p>
                 <p>
-                <input type="email" id="email" placeholder="Enter your Email" required > <br>
+                <input type="email" id="email" placeholder="Enter your Email" required> <br>
               </p>
               <p>
-                <textarea name="msg" id="" cols="40" rows="5" placeholder="Enter Your Message" required></textarea>
+                <textarea name="msg" id="msg" cols="40" rows="5" placeholder="Enter Your Message" required></textarea>
               </p>
                <p>
-                 <button id="submit-btn">Submit</button>
+                 <button onclick="submitdata();" id="submit-btn">Submit</button>
                </p>
+              </form>
             </div>
              <div class="col-12 rights " style="text-align: center;">
                 <p style="color: lightgray;">&copy;Copyright <span id="date"></span>,<span style="color: blue ;"> Accron Engineering </span>| All Rights Reserved</p>
@@ -144,8 +144,6 @@
         </div>
       </div>
     </div>
-
-
 
 
  <script src="js/app.js"></script>
