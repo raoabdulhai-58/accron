@@ -89,7 +89,7 @@
    font-weight: bold;
 }
 .services{
-    background: url('/images/image-6.jpeg');
+    background: url('../images/image-6.jpeg');
     width: 100%;
    background-size: 100% 100%;
     background-repeat: no-repeat;
